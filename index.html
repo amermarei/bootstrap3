@@ -1,0 +1,507 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/animate.css">
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="css/main-mode.css">
+    <!-- icon -->
+    <link rel="stylesheet" href="css/all.min.css">
+    <!-- fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Cairo:wght@200;300;400;500;600;700;800&display=swap" rel="stylesheet">
+    <script src="js/html5shiv.min.js"></script>
+    <script src="js/respond.min.js"></script>
+    <title>bootstrap 3</title>
+</head>
+<body>
+  <!-- loading -->
+  <!-- <div class="overlay-loading">
+    <div class="sk-chase">
+      <div class="sk-chase-dot"></div>
+      <div class="sk-chase-dot"></div>
+      <div class="sk-chase-dot"></div>
+      <div class="sk-chase-dot"></div>
+      <div class="sk-chase-dot"></div>
+      <div class="sk-chase-dot"></div>
+    </div>
+  </div> -->
+  <!-- start option box -->
+  <section class="option-box">
+    <div class="color-option">
+      <h4>Color Option</h4>
+      <ul class="list-unstyled">
+        <li data-value="css/main-mode.css"></li>
+        <li data-value="css/dark-mode.css"></li>
+      </ul> 
+    </div>
+      <i class="fa fa-gear fa-3x gear-option gear-tool"></i>
+   
+  </section>
+  <!-- end option box -->
+    <!-- start navbar -->
+    <nav class="navbar navbar-default  navbar-fixed-top">
+        <div class="container">
+          <!-- Brand and toggle get grouped for better mobile display -->
+          <div class="navbar-header">
+            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+              <span class="sr-only">Toggle navigation</span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+            </button>
+            <a class="navbar-brand" href="#">Amer <span>Inc.</span></a>
+          </div>
+      
+          <!-- Collect the nav links, forms, and other content for toggling -->
+          <div class="collapse navbar-collapse navbar-right" id="bs-example-navbar-collapse-1">
+            <ul class="nav navbar-nav ">
+              <li class="active"><a href="#">Home <span class="sr-only">(current)</span></a></li>
+              <li><a href="#">About</a></li>
+              <li><a href="#">Company</a></li>
+            </ul>
+    
+            <ul class="nav navbar-nav navbar-right">
+              <li class="dropdown ">
+                <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Services <span class="caret"></span></a>
+                <ul class="dropdown-menu">
+                  <li><a href="#">Programming</a></li>
+                  <li role="separator" class="divider"></li>
+                  <li><a href="#">Web Design</a></li>
+                  <li role="separator" class="divider"></li>
+                  <li><a href="#">Desktop</a></li>
+                  <li role="separator" class="divider"></li>
+                  <li><a href="#">Web Hosting</a></li>
+                </ul>
+              </li>
+              <li><a href="#">Map</a></li>
+              <li><a href="#">contact</a></li>
+            </ul>
+          </div><!-- /.navbar-collapse -->
+        </div><!-- /.container-fluid -->
+      </nav>
+      <!-- end navbar -->
+      <!-- start carousel -->
+      <div id="myslide" class="carousel slide " data-ride="carousel">
+        <!-- Indicators -->
+        <ol class="carousel-indicators hidden-xs">
+          <li data-target="#myslide" data-slide-to="0" class="active"></li>
+          <li data-target="#myslide" data-slide-to="1"></li>
+          <li data-target="#myslide" data-slide-to="2"></li>
+        </ol>
+      
+        <!-- Wrapper for slides -->
+        <div class="carousel-inner" role="listbox">
+          <div class="item active">
+            <img src="imgs/carousel.jpg" alt="pic1">
+            <div class="carousel-caption hidden-xs">
+              <h1>Web Design</h1>
+              <p class="lead">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Maxime commodi dolor alias, inventore eligendi quaerat quo reprehenderit consequatur. Necessitatibus, recusandae nisi? Dolorem voluptatum ducimus hic, ex eum iusto possimus consectetur.</p>
+            </div>
+          </div>
+          <div class="item ">
+            <img src="imgs/carousel2.jpg" alt="pic2">
+            <div class="carousel-caption desktop hidden-xs ">
+              <h1>Desktop</h1>
+              <p class="lead">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Maxime commodi dolor alias, inventore eligendi quaerat quo reprehenderit consequatur. Necessitatibus, recusandae nisi? Dolorem voluptatum ducimus hic, ex eum iusto possimus consectetur.</p>
+            </div>
+          </div>
+          <div class="item">
+            <img src="imgs/carousel3.jpg" alt="pic3">
+            <div class="carousel-caption  hidden-xs">
+              <h1>Programming</h1>
+              <p class="lead">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Maxime commodi dolor alias, inventore eligendi quaerat quo reprehenderit consequatur. Necessitatibus, recusandae nisi? Dolorem voluptatum ducimus hic, ex eum iusto possimus consectetur.</p>
+            </div>
+          </div>
+        </div>
+      
+        <!-- Controls -->
+        <a class="left carousel-control" href="#myslide" role="button" data-slide="prev">
+          <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+          <span class="sr-only">Previous</span>
+        </a>
+        <a class="right carousel-control" href="#myslide" role="button" data-slide="next">
+          <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+          <span class="sr-only">Next</span>
+        </a>
+      </div>
+      <!-- end carousel -->
+      <!-- start section -->
+      <section class="head text-center">
+        <div class="container">
+          <h1>meet our new template <span>with bootstrap</span></h1>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt totam dolore praesentium, magnam</p>
+        </div>
+      </section>
+      <!-- start features -->
+      <section class="features text-center">
+        <div class="container">
+          <h1 class="main-heading">our features</h1>
+          <div class="row">
+            <div class="col-lg-3 col-md-6">
+              <div class="feat">
+                <span class="glyphicon glyphicon-ok"></span>
+                <h4>100% responsive</h4>
+                <p class="lead">Lorem ipsum dolor sit amet consectetur adipisicing elit. Unde assumenda nostrum dignissimos a ullam eligendi nemo hic. Explicabo sapiente dolore ea quo</p>
+              </div>
+            </div>
+            <div class="col-lg-3 col-md-6">
+              <div class="feat">
+                <span class="glyphicon glyphicon-thumbs-up"></span>
+                <h4>retina ready</h4>
+                <p class="lead">Lorem ipsum dolor sit amet consectetur adipisicing elit. Unde assumenda nostrum dignissimos a ullam eligendi nemo hic. Explicabo sapiente dolore ea quo</p>
+              </div>
+            </div>
+            <div class="col-lg-3 col-md-6">
+              <div class="feat">
+                <span class="glyphicon glyphicon-eye-open"></span>
+                <h4>awesome display</h4>
+                <p class="lead">Lorem ipsum dolor sit amet consectetur adipisicing elit. Unde assumenda nostrum dignissimos a ullam eligendi nemo hic. Explicabo sapiente dolore ea quo</p>
+              </div>
+            </div>
+            <div class="col-lg-3 col-md-6">
+              <div class="feat">
+                <span class="glyphicon glyphicon-pushpin"></span>
+                <h4>well documented</h4>
+                <p class="lead">Lorem ipsum dolor sit amet consectetur adipisicing elit. Unde assumenda nostrum dignissimos a ullam eligendi nemo hic. Explicabo sapiente dolore ea quo</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- end features -->
+      <!-- start testmonials -->
+      <section class="testimonials text-center">
+        <div class="container">
+          <h1>what our client say ?</h1>
+          <!-- start carousel -->
+      <div id="testimonials-carousel" class="carousel slide" data-ride="carousel">
+        <!-- Wrapper for slides -->
+        <div class="carousel-inner" role="listbox">
+          <div class="item active">
+              <p class="lead"> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Maxime commodi dolor alias, inventore eligendi quaerat quo reprehenderit consequatur. Necessitatibus, recusandae nisi? Dolorem voluptatum ducimus hic, ex eum iusto possimus consectetur.</p>
+              <span>amer marei </span>
+            </div>
+          <div class="item ">
+              <p class="lead">Lorem iMpsum dolor sit amet, consectetur adipisicing elit. Maxime commodi dolor alias, inventore eligendi quaerat quo reprehenderit consequatur. Necessitatibus, recusandae nisi? Dolorem voluptatum ducimus hic, ex eum iusto possimus consectetur.</p>
+              <span>khaled ali</span>
+            </div>
+          <div class="item">
+              <p class="lead">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Maxime commodi dolor alias, inventore eligendi quaerat quo reprehenderit consequatur. Necessitatibus, recusandae nisi? Dolorem voluptatum ducimus hic, ex eum iusto possimus consectetur.</p>
+              <span>tasneem mohamed</span>
+            </div>
+        </div>
+              <!-- Indicators -->
+              <ol class="carousel-indicators">
+                <li data-target="#testimonials-carousel" data-slide-to="0" class="active">
+                  <img src="imgs/avatar1.png" alt="">
+                </li>
+                <li data-target="#testimonials-carousel" data-slide-to="1">
+                  <img src="imgs/avatar5.png" alt="">
+                </li>
+                <li data-target="#testimonials-carousel" data-slide-to="2">
+                  <img src="imgs/avatar2.jpg" alt="">
+                </li>
+              </ol>
+      </div>
+      <!-- end carousel -->
+        </div>
+      </section>
+      <!-- end testmonials -->
+      <!-- start price -->
+      <section class="price text-center">
+        <div class="container">
+          <h1 class="main-heading">our amazing prices</h1>
+          <div class="row">     
+            <div class="col-lg-3 col-sm-6 col-xs-12">
+            <div class="price-box">
+                <h3 class="text-primary">hosting</h3>
+                <p>$40</p>
+                <ul class="list-unstyled">
+                  <li>space: 30GB</li>
+                  <li>emails: 20</li>
+                  <li>ips: 2ip</li>
+                  <li>database: 10</li>
+                  <li>fts accounts: 5</li>
+                  <a href="#" class="btn btn-primary">order now</a>
+                </ul>
+              </div>
+            </div>
+          <div class="col-lg-3 col-sm-6 col-xs-12">
+            <div class="price-box">
+            <h3 class="text-success">vps</h3>
+            <p>$50</p>
+            <ul class="list-unstyled">
+              <li>space: 50GB</li>
+              <li>emails: 40</li>
+              <li>ips: 5ip</li>
+              <li>database: 20</li>
+              <li>fts accounts: 10</li>
+              <a href="#" class="btn btn-success">order now</a>
+            </ul>
+            </div>
+          </div>
+          <div class="col-lg-3 col-sm-6 col-xs-12">
+            <div class="price-box">
+            <h3 class="text-danger">dedicated</h3>
+            <p>$70</p>
+            <ul class="list-unstyled">
+              <li>space: 80GB</li>
+              <li>emails: 60</li>
+              <li>ips: 7ip</li>
+              <li>database: 30</li>
+              <li>fts accounts: 15</li>
+              <a href="#" class="btn btn-danger">order now</a>
+            </ul>
+          </div>
+          </div>
+          <div class="col-lg-3 col-sm-6 col-xs-12">
+            <div class="price-box">
+              <h3 class="text-info">cloud</h3>
+            <p>$90</p>
+            <ul class="list-unstyled">
+              <li>space: 100GB</li>
+              <li>emails: 80</li>
+              <li>ips: 10ip</li>
+              <li>database: 40</li>
+              <li>fts accounts: 20</li>
+              <a href="#" class="btn btn-info">order now</a>
+            </ul>
+          </div>
+          </div>
+        </div>
+          </div>
+      </section>
+      <!-- end price -->
+      <!-- start ourteam -->
+      <section class="team text-center">
+        <div class="container">
+              <h1>meet our awesome team</h1>
+              <div class="row">
+                <div class="col-lg-3 col-md-6 col-sm-12">
+                  <div class="member">
+                    <img class="img-circle" src="imgs/team1.PNG" alt="">
+                    <h2>ahmed ali</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nulla eveniet esse architecto maxime magni</p>
+                    <i class="fa-brands fa-facebook-square"></i>
+                    <i class="fa-brands fa-twitter-square"></i>
+                    <i class="fa-brands fa-google-plus-square"></i>
+                  </div>
+                </div>
+                <div class="col-lg-3 col-md-6 col-sm-12">
+                  <div class="member">
+                    <img class="img-circle" src="imgs/team2.PNG" alt="">
+                    <h2>said mohamed</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nulla eveniet esse architecto maxime magni</p>
+                    <i class="fa-brands fa-facebook-square"></i>
+                    <i class="fa-brands fa-twitter-square"></i>
+                    <i class="fa-brands fa-google-plus-square"></i>
+                  </div>
+                </div>
+                <div class="col-lg-3 col-md-6 col-sm-12">
+                  <div class="member">
+                    <img class="img-circle" src="imgs/team3.PNG" alt="">
+                    <h2>farida ali</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nulla eveniet esse architecto maxime magni</p>
+                    <i class="fa-brands fa-facebook-square"></i>
+                    <i class="fa-brands fa-twitter-square"></i>
+                    <i class="fa-brands fa-google-plus-square"></i>
+                  </div>
+                </div>
+                <div class="col-lg-3 col-md-6 col-sm-12">
+                  <div class="member">
+                    <img class="img-circle" src="imgs/team4.PNG" alt="">
+                    <h2>ibrahim mansour</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nulla eveniet esse architecto maxime magni</p>
+                    <i class="fa-brands fa-facebook-square"></i>
+                    <i class="fa-brands fa-twitter-square"></i>
+                    <i class="fa-brands fa-google-plus-square"></i>
+                  </div>
+                </div>
+              </div>
+        </div>
+      </section>
+      <!-- end ourteam -->
+      <!-- start subscribe  -->
+      <section class="subscribe text-center">
+        <div class="container">
+          <h1>keep in touch</h1>
+          <p>sign up for new letters dont worry about spam we hate it too</p>
+          <form  class="form-inline">
+            <input type="text" class="form-control input-lg" placeholder="Enter Your Email"> 
+            <button class="btn btn-primary btn-lg"><i class="fa fa-edit fa-lg"></i>subscribe</button>
+          </form>
+        </div>
+      </section>
+      <!-- end subscribe  --> 
+      <!-- start stats -->
+      <section class="stats text-center">
+        <div class="container">
+              <h1>meet our main statistics</h1>
+              <div class="row">
+                <div class="col-lg-3 col-md-6 col-sm-12">
+                  <div class="stat">
+                    <i class="fa-solid fa-users fa-x5"></i>
+                    <span>9,550</span>
+                    <h4>satisfied users</h4>
+                  </div>
+                </div>
+                <div class="col-lg-3 col-md-6 col-sm-12">
+                  <div class="stat">
+                    <i class="fa-solid fa-comments"></i>
+                    <span>25,600</span>
+                    <h4>posted comments</h4>
+                  </div>
+                </div>
+                <div class="col-lg-3 col-md-6 col-sm-12">
+                  <div class="stat">
+                    <i class="fa-solid fa-clipboard-check"></i>
+                    <span>4,260</span>
+                    <h4>projects done</h4>
+                  </div>
+                </div>
+                <div class="col-lg-3 col-md-6 col-sm-12">
+                  <div class="stat">
+                    <i class="fa-solid fa-box-archive"></i>
+                    <span>95,500</span>
+                    <h4>tickets archived</h4>
+                  </div>
+                </div>
+               
+              </div>
+        </div>
+      </section>
+      <!-- end stats -->
+      <!-- start skills -->
+        <div class="skills">
+          <div class="container">
+            <h1 class="main-heading text-center">our skills</h1>
+            <div class="row">
+              <div class="col-md-5">
+                <div class="progress">
+                  <div class="progress-bar progress-bar-success" role="progressbar" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100" style="width: 90%;">
+                    html
+                  </div>           
+                </div>
+                <div class="progress">
+                  <div class="progress-bar progress-bar-info" role="progressbar" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100" style="width: 80%;">
+                    css
+                  </div>  
+                </div>
+                <div class="progress">
+                  <div class="progress-bar progress-bar-danger" role="progressbar" aria-valuenow="85" aria-valuemin="0" aria-valuemax="100" style="width: 85%;">
+                    bootstrap
+                  </div>  
+                </div>
+                <div class="progress">
+                  <div class="progress-bar progress-bar-warning" role="progressbar" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100" style="width: 70%;">
+                    javascript
+                  </div>    
+                </div>
+              </div>
+              <div class="col-lg-6 col-md-offset-1">
+                <h2 class="text-center">about the team</h2>
+                <p class="lead">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quaerat quas error, architecto blanditiis, amet perferendis molestias eos harum, quia voluptatibus et iste beatae. Voluptatibus minima commodi et earum eveniet aperiam.</p>
+                <button class="btn btn-primary ">talk to a professional</button>
+              </div>
+            </div>
+          </div>
+        </div>
+      <!-- end skills -->
+      <!-- start contactus -->
+      <div class="contact text-center">
+        <div class="container">
+          <i class="fa-solid fa-headphones-simple fa-6x"></i>
+          <h1>tell us what are you fell</h1>
+          <h3>feel free to contact us anytime </h3>
+          <div class="row">
+            <div class="col-md-6 " >
+              <form  class="form-group">
+                <input type="text" class="form-control input-lg "placeholder="Enter Your Name">
+              </form>
+              <form  class="form-group">
+                <input type="text" class="form-control input-lg"placeholder="Enter Your Email">
+              </form>
+              <form  class="form-group">
+                <input type="text" class="form-control input-lg" placeholder="cell phone">
+              </form>
+            </div>
+            <div class="col-md-6">
+              <form  class="form-group  " >
+                <textarea class="form-control input-lg"placeholder="Enter Your Message"></textarea>
+              </form>
+              <button class="btn btn-primary btn-lg btn-block">Contact us</button>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- end section -->
+      <!-- start footer -->
+      <div class="footer">
+        <div class="container">
+          <div class="row">
+            <div class="box social col-lg-3 col-md-6">
+                <h1>Amer</h1>
+                    <a href="#"><i class="facebook fab fa-facebook-f"></i></a>
+                    <a href="#"><i class="twitter fab fa-twitter"></i></a>
+                    <a href="#"><i class="youtube fab fa-youtube"></i></a>
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Temporibus nulla rem, dignissimos iste aspernatur</p>
+            </div>
+            <ul class="box links  col-lg-3 col-md-6 list-unstyled">
+              <div class="row">
+                <div class="col-lg-6 col-md-6">
+                  <li>Home</li>
+                  <li>about</li>
+                  <li>company</li>
+                  <li>code</li>
+                  <li>Design</li>
+                </div>
+                <div class="col-lg-6 col-md-6">
+                  <li class="mobile">host</li>
+                  <li>solutions</li>
+                  <li>site map</li>
+                  <li>contact</li>
+                </div>
+              </div>
+            </ul>
+            <div class="box address  col-lg-3 col-md-6">
+                <div class="add">
+                    <i class="fas fa-map-marker-alt fa-fw"></i>
+                    <p>Egypt, Dammitta, Farskour</p>
+                </div>
+                <div class="add">
+                    <i class="far fa-clock fa-fw"></i>
+                    <p>Business Hours: From 10:00 To 18:00</p>
+                </div>
+                <div class="add">
+                    <i class="fas fa-phone-volume fa-fw"></i>
+                    <p>+01212733437</p>
+                </div>
+            </div>
+            <div class="box images  col-lg-3 col-md-6">
+                <img src="imgs/gallery-06.png" alt="">
+                <img src="imgs/gallery-01.png" alt="">
+                <img src="imgs/gallery-02.png"  alt="">
+                <img src="imgs/gallery-03.jpg" alt="">
+                <img src="imgs/gallery-04.png" alt="">
+                <img src="imgs/gallery-05.jpg" alt="">
+            </div>
+        </div>
+      </div>
+        <p>Made By Amer</p>
+    </div>
+    
+      <!-- end footer -->
+    <script src="js/jquery-1.11.1.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/blugins.js"></script>
+    <script src="js/wow.min.js"></script>
+    <script>
+      new WOW().init();
+      </script>
+    <script src="js/jquery.nicescroll.min.js"></script>
+</body>
+</html>
